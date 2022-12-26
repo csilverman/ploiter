@@ -14,3 +14,4 @@ jobs:
         server: ploiter.csilverman.com
         username: dh_ebddmd
         password: ${{ secrets.ftp_password }}
+        server-dir: /home/dh_ebddmd/ploiter.csilverman.com/
