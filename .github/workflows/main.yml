@@ -11,6 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: /home/dh_ebddmd/ploiter.csilverman.com/
+        server: ploiter.csilverman.com
         username: dh_ebddmd
         password: ${{ secrets.ftp_password }}
+        server-dir: /home/dh_ebddmd/ploiter.csilverman.com/
